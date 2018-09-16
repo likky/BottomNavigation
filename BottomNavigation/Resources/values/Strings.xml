@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">底部导航Demo</string>
+  <string name="notification">通知</string>
+  <string name="notificationTitle">下载安装应用时显示通知图标</string>
+  <string name="others">其它</string>
+  <string name="share">分享</string>
+  <string name="rating">评价</string>
+  <string name="ratingSummary">在应用市场中评价应用</string>
+  <string name="feedback">意见反馈</string>
+  <string name="feedbackSummary">发送邮件提交反馈</string>
+  <string name="privacy">隐私政策</string>
+  <string name="version">当前版本</string>
+  <string name="about">关于</string>
+  <string name="shareValue">底部导航应用分享 </string>
+</resources>

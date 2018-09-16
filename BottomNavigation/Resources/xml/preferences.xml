@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <!-- 设置的类别 -->
+  <PreferenceCategory
+      android:key="notification"
+      android:title="@string/notification">
+    <SwitchPreference
+    android:defaultValue="true"
+    android:key="icon"
+    android:title="@string/notificationTitle" />
+  </PreferenceCategory>
+
+  <PreferenceCategory
+    android:key="others"
+    android:title="@string/others">
+    <Preference
+    android:title="@string/share"
+    android:key="share">
+    </Preference>
+    <PreferenceScreen
+    android:summary="@string/ratingSummary"
+    android:title="@string/rating" >
+      <intent
+     android:action="android.intent.action.VIEW"
+     android:data="market://details?id=BottomNavigation.BottomNavigation" />
+    </PreferenceScreen>
+    <PreferenceScreen
+android:summary="@string/feedback"
+android:title="@string/feedbackSummary" >
+      <intent
+     android:action="android.intent.action.VIEW"
+     android:data="mailto:664907696@qq.com" />
+    </PreferenceScreen>
+    <PreferenceScreen
+    android:title="@string/privacy" >
+      <intent
+     android:action="android.intent.action.VIEW"
+     android:data="https://www.baidu.com" />
+    </PreferenceScreen>
+  </PreferenceCategory>
+
+  <PreferenceCategory
+  android:key="about"
+  android:title="@string/about">
+    <Preference
+    android:key="version"
+    android:title="@string/version">
+    </Preference>
+  </PreferenceCategory>
+
+</PreferenceScreen>
